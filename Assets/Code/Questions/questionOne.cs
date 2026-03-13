@@ -18,6 +18,8 @@ public class questionOne : MonoBehaviour
     public GameObject BG_Regular;
     public GameObject BG_Incorrect;
     public TMP_Text CorrectAnswer;
+    public TMP_Text WrongAnswer;
+    public TMP_Text WrongAnswerTwo;
 
 
 
@@ -72,6 +74,9 @@ private void OnCollisionEnter2D(Collision2D collision)
                 questionNumber.SetActive(false);
                 wrongAnswer.SetActive(true);
                 currentHitbox.SetActive(false);
+                WrongAnswer.color = Color.red;
+                WrongAnswerTwo.color = Color.red;
+                
                 BG_Incorrect.SetActive(true);
                 BG_Regular.SetActive(false);
                 CorrectAnswer.color = Color.green;

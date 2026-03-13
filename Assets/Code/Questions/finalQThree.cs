@@ -14,13 +14,15 @@ public class finalQThree : MonoBehaviour
     public GameObject BG_Incorrect;
     public GameObject questionNumber;
     public TMP_Text CorrectAnswer;
+    public TMP_Text WrongAnswer;
+    public TMP_Text WrongAnswerTwo;
 
 void finalQuestion()
     {
         SceneManager.LoadScene(2);
     }
-    
-    [SerializeField]
+
+   [SerializeField]
     private TMP_Text scoreText;
     [SerializeField]
     private FloatSO scoreSO;
@@ -56,6 +58,8 @@ private void OnCollisionEnter2D(Collision2D collision)
                 tennaTV.SetActive(false);
                 questionNumber.SetActive(false);
                 wrongAnswer.SetActive(true);
+                WrongAnswer.color = Color.red;
+                WrongAnswerTwo.color = Color.red;
 
                 BG_Incorrect.SetActive(true);
                 BG_Regular.SetActive(false);
