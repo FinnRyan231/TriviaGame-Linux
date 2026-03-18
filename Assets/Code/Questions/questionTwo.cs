@@ -55,8 +55,7 @@ private void OnCollisionEnter2D(Collision2D collision)
             {
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.correctSFX);
                 tennaTV.SetActive(false);
-                questionNumber.SetActive(false);
-                correctAnswer.SetActive(true);
+                // correctAnswer.SetActive(true);
                 currentHitbox.SetActive(false);
                 CorrectAnswer.color = Color.green;
 
@@ -70,8 +69,7 @@ private void OnCollisionEnter2D(Collision2D collision)
 
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.incorrectSFX);
                 tennaTV.SetActive(false);
-                questionNumber.SetActive(false);
-                wrongAnswer.SetActive(true);
+                // wrongAnswer.SetActive(true);
                 currentHitbox.SetActive(false);
                 WrongAnswer.color = Color.red;
                 WrongAnswerTwo.color = Color.red;
