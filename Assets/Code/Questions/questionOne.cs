@@ -20,19 +20,29 @@ public class questionOne : MonoBehaviour
     public TMP_Text CorrectAnswer;
     public TMP_Text WrongAnswer;
     public TMP_Text WrongAnswerTwo;
+    PlayerMovement playerMovement;
 
+
+void Awake()
+{
+    playerMovement = this.GetComponent<PlayerMovement>();
+}
 
 
 void completeQuestion()
     {
-        nextQuestion.SetActive(true);
-        nextHitbox.SetActive(true);
-        tennaTV.SetActive(true);
-        BG_Regular.SetActive(true);
-        currentQuestion.SetActive(false);
-        correctAnswer.SetActive(false);
-        wrongAnswer.SetActive(false);
-        BG_Incorrect.SetActive(false);
+        if(playerMovement.isGrounded == true) 
+        {
+            nextQuestion.SetActive(true);
+            nextHitbox.SetActive(true);
+            tennaTV.SetActive(true);
+            BG_Regular.SetActive(true);
+            currentQuestion.SetActive(false);
+            correctAnswer.SetActive(false);
+            wrongAnswer.SetActive(false);
+            BG_Incorrect.SetActive(false);
+        }
+       
     }
 
     [SerializeField]
