@@ -11,6 +11,14 @@ public class bigTenna : MonoBehaviour
     public GameObject currentQuestion;
     public GameObject currentQuestionNumber;
 
+void DeleteStatic()
+    {
+        Tenna_Static.SetActive(false);
+        Tenna_Normal.SetActive(true);
+        currentQuestion.SetActive(true);
+        currentQuestionNumber.SetActive(true);
+    }
+
 private void OnCollisionEnter2D(Collision2D collision)
 {
     if(collision.gameObject.tag == "Player")
@@ -19,6 +27,8 @@ private void OnCollisionEnter2D(Collision2D collision)
         currentQuestion.SetActive(false);
         currentQuestionNumber.SetActive(false);
         Tenna_Static.SetActive(true);
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.incorrectSFX);
+        Invoke("DeleteStatic", 1);
     }
 
 }

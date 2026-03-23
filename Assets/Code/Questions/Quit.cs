@@ -7,6 +7,10 @@ using Unity.Cinemachine;
 
 public class Quit : MonoBehaviour
 {
+
+ [SerializeField]
+ private FloatSO scoreSO;
+
 void completeQuestion()
     {
        SceneManager.LoadScene(0);
@@ -19,6 +23,7 @@ private void OnCollisionEnter2D(Collision2D collision)
         Invoke("completeQuestion", 1);
         CameraShakeManager.Instance.Shake(2f, 1f);
         AudioManager.Instance.PlaySFX(AudioManager.Instance.incorrectSFX);
+        scoreSO.Value = 0;
     }
 }
 
