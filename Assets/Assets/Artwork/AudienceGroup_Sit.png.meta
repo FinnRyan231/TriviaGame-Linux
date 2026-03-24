@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 99116f694ab4ba846b0d9bc7c5b16dc2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -440132127406252301
+    second: AudienceGroup_Sit_0
+  - first:
+      213: -1601083682707715862
+    second: AudienceGroup_Sit_1
+  - first:
+      213: -4813052148058869365
+    second: AudienceGroup_Sit_2
+  - first:
+      213: 4275060664785463795
+    second: AudienceGroup_Sit_3
+  - first:
+      213: -2442257179752120575
+    second: AudienceGroup_Sit_4
+  - first:
+      213: -1864110471636014167
+    second: AudienceGroup_Sit_5
+  - first:
+      213: 1332737940289086903
+    second: AudienceGroup_Sit_6
+  - first:
+      213: -6709460141790994530
+    second: AudienceGroup_Sit_7
+  - first:
+      213: -2085567050487370789
+    second: AudienceGroup_Sit_8
+  - first:
+      213: 930116585623151695
+    second: AudienceGroup_Sit_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 66
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AudienceGroup_Sit_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 145
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe96bb792654e9f0800000000000000
+      internalID: -440132127406252301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudienceGroup_Sit_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 145
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8488c9fdec7c9e0800000000000000
+      internalID: -1601083682707715862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudienceGroup_Sit_2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 145
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81358d629a943db0800000000000000
+      internalID: -4813052148058869365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudienceGroup_Sit_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 145
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f968cd3601145b30800000000000000
+      internalID: 4275060664785463795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudienceGroup_Sit_4
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 145
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f3abed80c5b1ed0800000000000000
+      internalID: -2442257179752120575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudienceGroup_Sit_5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 145
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abac0c07695126e0800000000000000
+      internalID: -1864110471636014167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudienceGroup_Sit_6
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 145
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5ed957816de7210800000000000000
+      internalID: 1332737940289086903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudienceGroup_Sit_7
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 145
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fd7ed9c8533e2a0800000000000000
+      internalID: -6709460141790994530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudienceGroup_Sit_8
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 145
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbe07041d39e03e0800000000000000
+      internalID: -2085567050487370789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudienceGroup_Sit_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 145
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4464cd4b1078ec00800000000000000
+      internalID: 930116585623151695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AudienceGroup_Sit_0: -440132127406252301
+      AudienceGroup_Sit_1: -1601083682707715862
+      AudienceGroup_Sit_2: -4813052148058869365
+      AudienceGroup_Sit_3: 4275060664785463795
+      AudienceGroup_Sit_4: -2442257179752120575
+      AudienceGroup_Sit_5: -1864110471636014167
+      AudienceGroup_Sit_6: 1332737940289086903
+      AudienceGroup_Sit_7: -6709460141790994530
+      AudienceGroup_Sit_8: -2085567050487370789
+      AudienceGroup_Sit_9: 930116585623151695
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

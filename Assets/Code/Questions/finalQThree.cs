@@ -16,6 +16,20 @@ public class finalQThree : MonoBehaviour
     public TMP_Text CorrectAnswer;
     public TMP_Text WrongAnswer;
     public TMP_Text WrongAnswerTwo;
+    public bool isCorrect;
+
+    public Animator animator;
+
+void Awake()
+{
+   // animator = GetComponent<Animator>();
+
+    if (animator == null)
+    {
+        Debug.Log("Animator not found");
+    }
+}
+
 
 void finalQuestion()
     {
@@ -39,6 +53,7 @@ private void OnCollisionEnter2D(Collision2D collision)
         
         if(gameObject.tag == "Correct")
             {
+                animator.SetBool("isCorrect", true);
                 Debug.Log("yay");
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.correctSFX);
                 tennaTV.SetActive(false);
