@@ -20,19 +20,25 @@ public class questionOne : MonoBehaviour
     public TMP_Text CorrectAnswer;
     public TMP_Text WrongAnswer;
     public TMP_Text WrongAnswerTwo;
-    PlayerMovement playerMovement;
+    public bool isCorrect;
+    public bool animationChanged;
+
+    public Animator animator;
 
 
 void Awake()
 {
-    playerMovement = this.GetComponent<PlayerMovement>();
+   // animator = GetComponent<Animator>();
+
+    if (animator == null)
+    {
+        Debug.Log("Animator not found");
+    }
 }
 
 
 void completeQuestion()
     {
-        if(playerMovement.isGrounded == true) 
-        {
             nextQuestion.SetActive(true);
             nextHitbox.SetActive(true);
             tennaTV.SetActive(true);
@@ -41,8 +47,7 @@ void completeQuestion()
             correctAnswer.SetActive(false);
             wrongAnswer.SetActive(false);
             BG_Incorrect.SetActive(false);
-        }
-       
+            animator.SetBool("isCorrect", false);
     }
 
     [SerializeField]
@@ -52,7 +57,6 @@ void completeQuestion()
 
     void Start()
     {
-    
         scoreText.text = scoreSO.Value + "";
     }
 
@@ -64,16 +68,16 @@ private void OnCollisionEnter2D(Collision2D collision)
 
         if(gameObject.tag == "Correct")
             {
+                animator.SetBool("isCorrect", true);
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.correctSFX);
                 tennaTV.SetActive(false);
+                animator.SetBool("animationChanged", true);
                 // correctAnswer.SetActive(true);
                 currentHitbox.SetActive(false);
                 CorrectAnswer.color = Color.green;
 
                 scoreSO.Value += 100;
                 scoreText.text = scoreSO.Value + "";
-
-
             }
             else if(gameObject.tag == "Incorrect")
             {

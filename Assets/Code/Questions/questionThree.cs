@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Unity.Cinemachine;
 using TMPro;
 
 public class questionThree : MonoBehaviour
@@ -19,19 +20,34 @@ public class questionThree : MonoBehaviour
     public TMP_Text CorrectAnswer;
     public TMP_Text WrongAnswer;
     public TMP_Text WrongAnswerTwo;
+    public bool isCorrect;
+    public bool animationChanged;
 
+    public Animator animator;
+
+
+void Awake()
+{
+   // animator = GetComponent<Animator>();
+
+    if (animator == null)
+    {
+        Debug.Log("Animator not found");
+    }
+}
 
 
 void completeQuestion()
     {
-        nextQuestion.SetActive(true);
-        nextHitbox.SetActive(true);
-        tennaTV.SetActive(true);
-        BG_Regular.SetActive(true);
-        currentQuestion.SetActive(false);
-        correctAnswer.SetActive(false);
-        wrongAnswer.SetActive(false);
-        BG_Incorrect.SetActive(false);
+            nextQuestion.SetActive(true);
+            nextHitbox.SetActive(true);
+            tennaTV.SetActive(true);
+            BG_Regular.SetActive(true);
+            currentQuestion.SetActive(false);
+            correctAnswer.SetActive(false);
+            wrongAnswer.SetActive(false);
+            BG_Incorrect.SetActive(false);
+            animator.SetBool("isCorrect", false);
     }
 
     [SerializeField]
@@ -41,7 +57,6 @@ void completeQuestion()
 
     void Start()
     {
-    
         scoreText.text = scoreSO.Value + "";
     }
 
@@ -53,16 +68,16 @@ private void OnCollisionEnter2D(Collision2D collision)
 
         if(gameObject.tag == "Correct")
             {
+                animator.SetBool("isCorrect", true);
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.correctSFX);
                 tennaTV.SetActive(false);
+                animator.SetBool("animationChanged", true);
                 // correctAnswer.SetActive(true);
                 currentHitbox.SetActive(false);
                 CorrectAnswer.color = Color.green;
 
                 scoreSO.Value += 100;
                 scoreText.text = scoreSO.Value + "";
-
-
             }
             else if(gameObject.tag == "Incorrect")
             {

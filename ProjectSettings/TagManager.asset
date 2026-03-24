@@ -17,8 +17,8 @@ TagManager:
   - Answers
   - Clone
   - originalPlayer
-  - 
-  - 
+  - Background
+  - Audience
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1938333967
     locked: 0
   m_RenderingLayers:
   - Default
