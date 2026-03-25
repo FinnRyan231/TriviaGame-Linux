@@ -13,7 +13,6 @@ public class questionThree : MonoBehaviour
     public GameObject nextHitbox;
     public GameObject wrongAnswer;
     public GameObject audienceCrowd;
-    public GameObject tennaTV;
     public GameObject questionNumber;
     public GameObject BG_Regular;
     public GameObject BG_Incorrect;
@@ -41,7 +40,6 @@ void completeQuestion()
     {
             nextQuestion.SetActive(true);
             nextHitbox.SetActive(true);
-            tennaTV.SetActive(true);
             BG_Regular.SetActive(true);
             audienceCrowd.SetActive(true);
             currentQuestion.SetActive(false);
@@ -70,7 +68,6 @@ private void OnCollisionEnter2D(Collision2D collision)
             {
                 animator.SetBool("isCorrect", true);
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.correctSFX);
-                tennaTV.SetActive(false);
                 animator.SetBool("animationChanged", true);
                 currentHitbox.SetActive(false);
                 CorrectAnswer.color = Color.green;
@@ -82,7 +79,6 @@ private void OnCollisionEnter2D(Collision2D collision)
             {
 
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.incorrectSFX);
-                tennaTV.SetActive(false);
                 audienceCrowd.SetActive(false);
                 wrongAnswer.SetActive(true);
                 currentHitbox.SetActive(false);

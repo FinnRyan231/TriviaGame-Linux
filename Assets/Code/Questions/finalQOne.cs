@@ -9,7 +9,6 @@ public class finalQOne : MonoBehaviour
 {
     public GameObject wrongAnswer;
     public GameObject audienceCrowd;
-    public GameObject tennaTV;
     public GameObject BG_Regular;
     public GameObject BG_Incorrect;
     public GameObject questionNumber;
@@ -56,7 +55,6 @@ private void OnCollisionEnter2D(Collision2D collision)
                 animator.SetBool("isCorrect", true);
                 Debug.Log("yay");
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.correctSFX);
-                tennaTV.SetActive(false);
                 CorrectAnswer.color = Color.green;
                 
                 scoreSO.Value += 100;
@@ -68,8 +66,8 @@ private void OnCollisionEnter2D(Collision2D collision)
             {
                 Debug.Log("boo");
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.incorrectSFX);
-                tennaTV.SetActive(false);
-                audienceCrowd.SetActive(true);
+                audienceCrowd.SetActive(false);
+                wrongAnswer.SetActive(true);
                 WrongAnswer.color = Color.red;
                 WrongAnswerTwo.color = Color.red;
 
