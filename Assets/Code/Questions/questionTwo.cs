@@ -12,7 +12,7 @@ public class questionTwo : MonoBehaviour
     public GameObject currentHitbox;
     public GameObject nextHitbox;
     public GameObject wrongAnswer;
-    public GameObject correctAnswer;
+    public GameObject audienceCrowd;
     public GameObject tennaTV;
     public GameObject questionNumber;
     public GameObject BG_Regular;
@@ -43,8 +43,8 @@ void completeQuestion()
             nextHitbox.SetActive(true);
             tennaTV.SetActive(true);
             BG_Regular.SetActive(true);
+            audienceCrowd.SetActive(true);
             currentQuestion.SetActive(false);
-            correctAnswer.SetActive(false);
             wrongAnswer.SetActive(false);
             BG_Incorrect.SetActive(false);
             animator.SetBool("isCorrect", false);
@@ -72,7 +72,6 @@ private void OnCollisionEnter2D(Collision2D collision)
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.correctSFX);
                 tennaTV.SetActive(false);
                 animator.SetBool("animationChanged", true);
-                // correctAnswer.SetActive(true);
                 currentHitbox.SetActive(false);
                 CorrectAnswer.color = Color.green;
 
@@ -84,7 +83,8 @@ private void OnCollisionEnter2D(Collision2D collision)
 
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.incorrectSFX);
                 tennaTV.SetActive(false);
-                // wrongAnswer.SetActive(true);
+                audienceCrowd.SetActive(false);
+                wrongAnswer.SetActive(true);
                 currentHitbox.SetActive(false);
                 WrongAnswer.color = Color.red;
                 WrongAnswerTwo.color = Color.red;

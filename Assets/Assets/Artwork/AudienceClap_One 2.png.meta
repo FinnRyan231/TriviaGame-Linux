@@ -1,37 +1,37 @@
 fileFormatVersion: 2
-guid: fb5fbab5add76204bb85f263107ade8f
+guid: e0d7d2bb9298aad4da8df26e8e8fdb17
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8376108663724138200
-    second: AudienceClap_Two 1_0
+      213: 6008461591980827782
+    second: AudienceClap_One 2_0
   - first:
-      213: 3345014672461564452
-    second: AudienceClap_Two 1_1
+      213: 1816419987130211465
+    second: AudienceClap_One 2_1
   - first:
-      213: -457953677306301948
-    second: AudienceClap_Two 1_2
+      213: -7014268724144436445
+    second: AudienceClap_One 2_2
   - first:
-      213: 8943965305957827728
-    second: AudienceClap_Two 1_3
+      213: -9189642358138251138
+    second: AudienceClap_One 2_3
   - first:
-      213: -5615329786031704773
-    second: AudienceClap_Two 1_4
+      213: 5434437680460726589
+    second: AudienceClap_One 2_4
   - first:
-      213: -7968371502566707100
-    second: AudienceClap_Two 1_5
+      213: 6049178584484245977
+    second: AudienceClap_One 2_5
   - first:
-      213: 5045816233895235307
-    second: AudienceClap_Two 1_6
+      213: 3960024766069101829
+    second: AudienceClap_One 2_6
   - first:
-      213: 2781114850336637234
-    second: AudienceClap_Two 1_7
+      213: -7875746122318700354
+    second: AudienceClap_One 2_7
   - first:
-      213: -9003482062032043521
-    second: AudienceClap_Two 1_8
+      213: 627609329839179362
+    second: AudienceClap_One 2_8
   - first:
-      213: 493103560716759435
-    second: AudienceClap_Two 1_9
+      213: 5049927549103209307
+    second: AudienceClap_One 2_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 66
+  spritePixelsToUnits: 35
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,13 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AudienceClap_Two 1_0
+      name: AudienceClap_One 2_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 146
-        width: 62
-        height: 154
+        x: 4
+        y: 75
+        width: 34
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 821a6a28c8512cb80800000000000000
-      internalID: -8376108663724138200
+      spriteID: 6846894dbf7526350800000000000000
+      internalID: 6008461591980827782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_Two 1_1
+      name: AudienceClap_One 2_1
       rect:
         serializedVersion: 2
-        x: 140
-        y: 145
-        width: 62
-        height: 154
+        x: 72
+        y: 73
+        width: 34
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42a8a883f11eb6e20800000000000000
-      internalID: 3345014672461564452
+      spriteID: 98cd0dfba58353910800000000000000
+      internalID: 1816419987130211465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_Two 1_2
+      name: AudienceClap_One 2_2
       rect:
         serializedVersion: 2
-        x: 282
-        y: 146
-        width: 62
-        height: 154
+        x: 146
+        y: 73
+        width: 34
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 402f29c8e8505a9f0800000000000000
-      internalID: -457953677306301948
+      spriteID: 32b0d3232cf48ae90800000000000000
+      internalID: -7014268724144436445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_Two 1_3
+      name: AudienceClap_One 2_3
       rect:
         serializedVersion: 2
-        x: 414
-        y: 145
-        width: 62
-        height: 154
+        x: 214
+        y: 73
+        width: 34
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 094c8010f095f1c70800000000000000
-      internalID: 8943965305957827728
+      spriteID: e78594ec6f4d77080800000000000000
+      internalID: -9189642358138251138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_Two 1_4
+      name: AudienceClap_One 2_4
       rect:
         serializedVersion: 2
-        x: 546
-        y: 145
-        width: 62
-        height: 154
+        x: 284
+        y: 75
+        width: 33
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b35f8e69f475212b0800000000000000
-      internalID: -5615329786031704773
+      spriteID: d310cd907400b6b40800000000000000
+      internalID: 5434437680460726589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_Two 1_5
+      name: AudienceClap_One 2_5
       rect:
         serializedVersion: 2
-        x: 698
-        y: 145
-        width: 62
-        height: 154
+        x: 362
+        y: 75
+        width: 34
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,20 +265,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4607a2f2658aa6190800000000000000
-      internalID: -7968371502566707100
+      spriteID: 9d175176fdff2f350800000000000000
+      internalID: 6049178584484245977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_Two 1_6
+      name: AudienceClap_One 2_6
       rect:
         serializedVersion: 2
-        x: 830
-        y: 146
-        width: 62
-        height: 154
+        x: 431
+        y: 75
+        width: 34
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bee893f7127560640800000000000000
-      internalID: 5045816233895235307
+      spriteID: 5055c4b2b85d4f630800000000000000
+      internalID: 3960024766069101829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_Two 1_7
+      name: AudienceClap_One 2_7
       rect:
         serializedVersion: 2
-        x: 962
-        y: 146
-        width: 62
-        height: 154
+        x: 500
+        y: 74
+        width: 33
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,20 +309,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23101eda831889620800000000000000
-      internalID: 2781114850336637234
+      spriteID: eb0a80611aab3b290800000000000000
+      internalID: -7875746122318700354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_Two 1_8
+      name: AudienceClap_One 2_8
       rect:
         serializedVersion: 2
-        x: 1094
-        y: 145
-        width: 62
-        height: 154
+        x: 568
+        y: 75
+        width: 33
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +331,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff18afe54c43d0380800000000000000
-      internalID: -9003482062032043521
+      spriteID: 26609ca3c57b5b800800000000000000
+      internalID: 627609329839179362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_Two 1_9
+      name: AudienceClap_One 2_9
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 145
-        width: 62
-        height: 154
+        x: 624
+        y: 73
+        width: 34
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,8 +353,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b81b00e631bd7d600800000000000000
-      internalID: 493103560716759435
+      spriteID: b5b71c9a952f41640800000000000000
+      internalID: 5049927549103209307
       vertices: []
       indices: 
       edges: []
@@ -373,16 +373,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AudienceClap_Two 1_0: -8376108663724138200
-      AudienceClap_Two 1_1: 3345014672461564452
-      AudienceClap_Two 1_2: -457953677306301948
-      AudienceClap_Two 1_3: 8943965305957827728
-      AudienceClap_Two 1_4: -5615329786031704773
-      AudienceClap_Two 1_5: -7968371502566707100
-      AudienceClap_Two 1_6: 5045816233895235307
-      AudienceClap_Two 1_7: 2781114850336637234
-      AudienceClap_Two 1_8: -9003482062032043521
-      AudienceClap_Two 1_9: 493103560716759435
+      AudienceClap_One 2_0: 6008461591980827782
+      AudienceClap_One 2_1: 1816419987130211465
+      AudienceClap_One 2_2: -7014268724144436445
+      AudienceClap_One 2_3: -9189642358138251138
+      AudienceClap_One 2_4: 5434437680460726589
+      AudienceClap_One 2_5: 6049178584484245977
+      AudienceClap_One 2_6: 3960024766069101829
+      AudienceClap_One 2_7: -7875746122318700354
+      AudienceClap_One 2_8: 627609329839179362
+      AudienceClap_One 2_9: 5049927549103209307
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

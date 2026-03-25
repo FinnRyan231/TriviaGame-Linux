@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class finalQThree : MonoBehaviour
 {
     public GameObject wrongAnswer;
-    public GameObject correctAnswer;
+    public GameObject audienceCrowd;
     public GameObject tennaTV;
     public GameObject BG_Regular;
     public GameObject BG_Incorrect;
@@ -57,8 +57,6 @@ private void OnCollisionEnter2D(Collision2D collision)
                 Debug.Log("yay");
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.correctSFX);
                 tennaTV.SetActive(false);
-                // questionNumber.SetActive(false);
-                // correctAnswer.SetActive(true);
                 CorrectAnswer.color = Color.green;
                 
                 scoreSO.Value += 100;
@@ -71,8 +69,7 @@ private void OnCollisionEnter2D(Collision2D collision)
                 Debug.Log("boo");
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.incorrectSFX);
                 tennaTV.SetActive(false);
-                // questionNumber.SetActive(false);
-                // wrongAnswer.SetActive(true);
+                audienceCrowd.SetActive(true);
                 WrongAnswer.color = Color.red;
                 WrongAnswerTwo.color = Color.red;
 

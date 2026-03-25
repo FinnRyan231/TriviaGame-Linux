@@ -306,9 +306,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 653331274}
   currentHitbox: {fileID: 743212832}
   nextHitbox: {fileID: 2015200511}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 778050785}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -783,9 +783,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 1141374025}
   currentHitbox: {fileID: 1294718189}
   nextHitbox: {fileID: 743212832}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 164132045}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -948,9 +948,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 1141374025}
   currentHitbox: {fileID: 1294718189}
   nextHitbox: {fileID: 743212832}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 164132045}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -1162,7 +1162,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 99116f694ab4ba846b0d9bc7c5b16dc2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 32431446aba2e404693efab7fe477dcd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1443,6 +1443,93 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1931565333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &220193464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 220193466}
+  - component: {fileID: 220193465}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &220193465
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220193464}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &220193466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220193464}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.7556196, y: 0.43737307, z: -0.16689864}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &257920490
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,9 +1631,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc74eddd3037aaa4d8492b4bf620f363, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
   questionNumber: {fileID: 1109044814}
@@ -1746,9 +1833,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 1545176986}
   currentHitbox: {fileID: 2015200511}
   nextHitbox: {fileID: 1874839089}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 2039332716}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -1950,9 +2037,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 1141374025}
   currentHitbox: {fileID: 1294718189}
   nextHitbox: {fileID: 743212832}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 164132045}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -2598,9 +2685,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 1711780186}
   currentHitbox: {fileID: 1991737084}
   nextHitbox: {fileID: 1294718189}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 386224472}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -2695,9 +2782,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 684263994}
   currentHitbox: {fileID: 1874839089}
   nextHitbox: {fileID: 543404982}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 1344531229}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -7226,9 +7313,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 1940110433}
   currentHitbox: {fileID: 1555929362}
   nextHitbox: {fileID: 1991737084}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 1495394761}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -7586,51 +7673,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1039745490
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1039745492}
-  - component: {fileID: 1039745491}
-  m_Layer: 0
-  m_Name: TV
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!156049354 &1039745491
-Grid:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039745490}
-  m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
-  m_CellGap: {x: 0, y: 0, z: 0}
-  m_CellLayout: 0
-  m_CellSwizzle: 0
---- !u!4 &1039745492
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039745490}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1769341698}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1061658081
 GameObject:
   m_ObjectHideFlags: 0
@@ -7681,9 +7723,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 653331274}
   currentHitbox: {fileID: 743212832}
   nextHitbox: {fileID: 2015200511}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 778050785}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -7982,9 +8024,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 684263994}
   currentHitbox: {fileID: 1874839089}
   nextHitbox: {fileID: 543404982}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 1344531229}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -9084,9 +9126,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 1940110433}
   currentHitbox: {fileID: 1555929362}
   nextHitbox: {fileID: 1991737084}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 1495394761}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -9431,9 +9473,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 653331274}
   currentHitbox: {fileID: 743212832}
   nextHitbox: {fileID: 2015200511}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 778050785}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -9836,9 +9878,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 1711780186}
   currentHitbox: {fileID: 1991737084}
   nextHitbox: {fileID: 1294718189}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 386224472}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -9936,9 +9978,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 1940110433}
   currentHitbox: {fileID: 1555929362}
   nextHitbox: {fileID: 1991737084}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 1495394761}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -10073,6 +10115,93 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1342740844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1342740845}
+  - component: {fileID: 1342740846}
+  m_Layer: 0
+  m_Name: Audience_Wrong
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1342740845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342740844}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.44, y: 0.24, z: -1.0339979}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1387358107}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1342740846
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342740844}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 84cfbdcb2d420f14698581ebdadecce6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.39394, y: 9.69697}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1344531229
 GameObject:
   m_ObjectHideFlags: 0
@@ -10239,6 +10368,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 134445451}
+  - {fileID: 1342740845}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1389946534
@@ -10806,9 +10936,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 1545176986}
   currentHitbox: {fileID: 2015200511}
   nextHitbox: {fileID: 1874839089}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 2039332716}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -12178,163 +12308,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760065148}
   m_CullTransparentMesh: 1
---- !u!1 &1769341697
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1769341698}
-  - component: {fileID: 1769341700}
-  - component: {fileID: 1769341699}
-  m_Layer: 0
-  m_Name: TV
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1769341698
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1769341697}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.11, y: -0.02, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1039745492}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!483693784 &1769341699
-TilemapRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1769341697}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
-  m_MaxChunkCount: 16
-  m_MaxFrameAge: 16
-  m_SortOrder: 0
-  m_Mode: 0
-  m_DetectChunkCullingBounds: 0
-  m_MaskInteraction: 0
---- !u!1839735485 &1769341700
-Tilemap:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1769341697}
-  m_Enabled: 1
-  m_Tiles:
-  - first: {x: -10, y: 3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  m_AnimatedTiles: {}
-  m_TileAssetArray:
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ae57627c4c72f134f89f264e27bc4c62, type: 2}
-  m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: 3428207419641195721, guid: 3ff91466824a0074a8b6ab0cc35773ba, type: 3}
-  m_TileMatrixArray:
-  - m_RefCount: 1
-    m_Data:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_TileColorArray:
-  - m_RefCount: 1
-    m_Data: {r: 1, g: 1, b: 1, a: 1}
-  m_TileObjectToInstantiateArray: []
-  m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -10, y: 0, z: 0}
-  m_Size: {x: 10, y: 4, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
-  m_TileOrientation: 0
-  m_TileOrientationMatrix:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
 --- !u!1 &1815524999
 GameObject:
   m_ObjectHideFlags: 0
@@ -12386,9 +12359,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 684263994}
   currentHitbox: {fileID: 1874839089}
   nextHitbox: {fileID: 543404982}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 1344531229}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -12574,9 +12547,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 1545176986}
   currentHitbox: {fileID: 2015200511}
   nextHitbox: {fileID: 1874839089}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 2039332716}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -12812,9 +12785,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cc6d6fd390c2dc4f81753c6e976d518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
   questionNumber: {fileID: 1109044814}
@@ -14050,9 +14023,9 @@ MonoBehaviour:
   currentQuestion: {fileID: 1711780186}
   currentHitbox: {fileID: 1991737084}
   nextHitbox: {fileID: 1294718189}
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   questionNumber: {fileID: 386224472}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
@@ -14394,9 +14367,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9da348786ce1a874f8d4ce6e1972331e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrongAnswer: {fileID: 1909416286}
-  correctAnswer: {fileID: 673639273}
-  tennaTV: {fileID: 1769341697}
+  wrongAnswer: {fileID: 1342740844}
+  audienceCrowd: {fileID: 134445450}
+  tennaTV: {fileID: 0}
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
   questionNumber: {fileID: 1109044814}
@@ -15080,7 +15053,6 @@ SceneRoots:
   - {fileID: 1026773592}
   - {fileID: 2043009533}
   - {fileID: 973117783}
-  - {fileID: 1039745492}
   - {fileID: 457473198}
   - {fileID: 403466725}
   - {fileID: 644367300}
@@ -15089,3 +15061,4 @@ SceneRoots:
   - {fileID: 434006295}
   - {fileID: 352834924}
   - {fileID: 1387358107}
+  - {fileID: 220193466}

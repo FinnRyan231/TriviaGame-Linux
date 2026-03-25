@@ -1,37 +1,37 @@
 fileFormatVersion: 2
-guid: cd43e7059361a3440a86b47d6cc52d2a
+guid: 84cfbdcb2d420f14698581ebdadecce6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 568440778567329683
-    second: AudienceClap_One 1_0
+      213: -6865740372375073670
+    second: Audience_Ow_0
   - first:
-      213: 259989101156335665
-    second: AudienceClap_One 1_1
+      213: 8211984778382483658
+    second: Audience_Ow_1
   - first:
-      213: -7600008714607660856
-    second: AudienceClap_One 1_2
+      213: -3814093441102151443
+    second: Audience_Ow_2
   - first:
-      213: 8539260669542472763
-    second: AudienceClap_One 1_3
+      213: -259966232669613539
+    second: Audience_Ow_3
   - first:
-      213: -6266046729090687225
-    second: AudienceClap_One 1_4
+      213: -8198929536602289629
+    second: Audience_Ow_4
   - first:
-      213: -2788230415510880619
-    second: AudienceClap_One 1_5
+      213: -366646564071672216
+    second: Audience_Ow_5
   - first:
-      213: -4636041802112565620
-    second: AudienceClap_One 1_6
+      213: -8736465679687566393
+    second: Audience_Ow_6
   - first:
-      213: -7807161670432380764
-    second: AudienceClap_One 1_7
+      213: 1072120924420197634
+    second: Audience_Ow_7
   - first:
-      213: 2472046200934464189
-    second: AudienceClap_One 1_8
+      213: 2180671493989599621
+    second: Audience_Ow_8
   - first:
-      213: 3292793432284795927
-    second: AudienceClap_One 1_9
+      213: -1205739744153525355
+    second: Audience_Ow_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -140,123 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AudienceClap_One 1_0
+      name: Audience_Ow_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 146
-        width: 63
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3972a5a50e183e700800000000000000
-      internalID: 568440778567329683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AudienceClap_One 1_1
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 143
-        width: 63
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13085e3c5baab9300800000000000000
-      internalID: 259989101156335665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AudienceClap_One 1_2
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 143
-        width: 63
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c0ffe33758578690800000000000000
-      internalID: -7600008714607660856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AudienceClap_One 1_3
-      rect:
-        serializedVersion: 2
-        x: 413
-        y: 143
-        width: 63
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b3c1b84065c818670800000000000000
-      internalID: 8539260669542472763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AudienceClap_One 1_4
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 146
-        width: 63
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70f1d86e2b78a09a0800000000000000
-      internalID: -6266046729090687225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AudienceClap_One 1_5
-      rect:
-        serializedVersion: 2
-        x: 697
+        x: 0
         y: 145
-        width: 63
-        height: 156
+        width: 90
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59eb883b5373e49d0800000000000000
-      internalID: -2788230415510880619
+      spriteID: a7c8680f18df7b0a0800000000000000
+      internalID: -6865740372375073670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_One 1_6
+      name: Audience_Ow_1
       rect:
         serializedVersion: 2
-        x: 830
-        y: 146
-        width: 63
-        height: 156
+        x: 121
+        y: 145
+        width: 95
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8ef7353b8879afb0800000000000000
-      internalID: -4636041802112565620
+      spriteID: ac02760a5a4d6f170800000000000000
+      internalID: 8211984778382483658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_One 1_7
+      name: Audience_Ow_2
       rect:
         serializedVersion: 2
-        x: 961
-        y: 144
-        width: 63
-        height: 156
+        x: 263
+        y: 141
+        width: 95
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a825d923d367a390800000000000000
-      internalID: -7807161670432380764
+      spriteID: de085f6293e911bc0800000000000000
+      internalID: -3814093441102151443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_One 1_8
+      name: Audience_Ow_3
       rect:
         serializedVersion: 2
-        x: 1092
-        y: 146
-        width: 63
-        height: 156
+        x: 397
+        y: 145
+        width: 95
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dba7d0b1ce87e4220800000000000000
-      internalID: 2472046200934464189
+      spriteID: d129128b61a646cf0800000000000000
+      internalID: -259966232669613539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AudienceClap_One 1_9
+      name: Audience_Ow_4
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 143
-        width: 63
-        height: 156
+        x: 534
+        y: 145
+        width: 95
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,8 +243,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71413124e2a52bd20800000000000000
-      internalID: 3292793432284795927
+      spriteID: 32acc58b60d873e80800000000000000
+      internalID: -8198929536602289629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Audience_Ow_5
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 145
+        width: 95
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866f36e74e869eaf0800000000000000
+      internalID: -366646564071672216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Audience_Ow_6
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 145
+        width: 95
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbb4d980c6d1c680800000000000000
+      internalID: -8736465679687566393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Audience_Ow_7
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 145
+        width: 95
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d4458ec40f0ee00800000000000000
+      internalID: 1072120924420197634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Audience_Ow_8
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 145
+        width: 95
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589021b8b2d434e10800000000000000
+      internalID: 2180671493989599621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Audience_Ow_9
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 145
+        width: 94
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593a82a471a544fe0800000000000000
+      internalID: -1205739744153525355
       vertices: []
       indices: 
       edges: []
@@ -373,16 +373,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AudienceClap_One 1_0: 568440778567329683
-      AudienceClap_One 1_1: 259989101156335665
-      AudienceClap_One 1_2: -7600008714607660856
-      AudienceClap_One 1_3: 8539260669542472763
-      AudienceClap_One 1_4: -6266046729090687225
-      AudienceClap_One 1_5: -2788230415510880619
-      AudienceClap_One 1_6: -4636041802112565620
-      AudienceClap_One 1_7: -7807161670432380764
-      AudienceClap_One 1_8: 2472046200934464189
-      AudienceClap_One 1_9: 3292793432284795927
+      Audience_Ow_0: -6865740372375073670
+      Audience_Ow_1: 8211984778382483658
+      Audience_Ow_2: -3814093441102151443
+      Audience_Ow_3: -259966232669613539
+      Audience_Ow_4: -8198929536602289629
+      Audience_Ow_5: -366646564071672216
+      Audience_Ow_6: -8736465679687566393
+      Audience_Ow_7: 1072120924420197634
+      Audience_Ow_8: 2180671493989599621
+      Audience_Ow_9: -1205739744153525355
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
