@@ -30,7 +30,7 @@ public class throwable : MonoBehaviour
         if(playerMovement.isGrounded == true)
        {
         CalculateThrowVector();
-        Path.VisualizePath(this.gameObject,throwVector); 
+        Path.VisualizePath(this.gameObject,throwVector * -1); 
        }
     }
     void CalculateThrowVector()
@@ -58,7 +58,7 @@ public class throwable : MonoBehaviour
     }
     public void Throw()
     {
-        _rb.AddForce(throwVector);
+        _rb.AddForce(throwVector * -1);
 
          if(animator != null)
             { 
