@@ -460,7 +460,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &8218813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -669,6 +669,7 @@ MonoBehaviour:
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
   questionNumber: {fileID: 1676409719}
+  currentQuestion: {fileID: 167177121}
   CorrectAnswer: {fileID: 1733079039}
   WrongAnswer: {fileID: 480227407}
   WrongAnswerTwo: {fileID: 546559849}
@@ -1287,6 +1288,7 @@ MonoBehaviour:
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
   questionNumber: {fileID: 1676409719}
+  currentQuestion: {fileID: 167177121}
   CorrectAnswer: {fileID: 1733079039}
   WrongAnswer: {fileID: 480227407}
   WrongAnswerTwo: {fileID: 546559849}
@@ -3993,7 +3995,7 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 0}
+    TrackingTarget: {fileID: 965375233}
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
@@ -7530,8 +7532,8 @@ Transform:
   m_GameObject: {fileID: 545388964}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.90434, y: -0.0269, z: 0}
-  m_LocalScale: {x: 0.7194205, y: 0.5538911, z: 1}
+  m_LocalPosition: {x: -0.85335, y: -0.3041, z: 0}
+  m_LocalScale: {x: 1.2817968, y: 1.2846581, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1376545767}
@@ -11228,7 +11230,7 @@ GameObject:
   - component: {fileID: 760569788}
   m_Layer: 6
   m_Name: q2_answerOne
-  m_TagString: Incorrect
+  m_TagString: Correct
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11242,8 +11244,8 @@ Transform:
   m_GameObject: {fileID: 760569786}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.97891, y: -0.07, z: 0}
-  m_LocalScale: {x: 1.258224, y: 0.58941704, z: 1}
+  m_LocalPosition: {x: -2.18633, y: -0.0553, z: 0}
+  m_LocalScale: {x: 1.0060768, y: 0.8140192, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1376545767}
@@ -11274,7 +11276,7 @@ MonoBehaviour:
   WrongAnswerTwo: {fileID: 549554380}
   isCorrect: 0
   animationChanged: 0
-  animator: {fileID: 0}
+  animator: {fileID: 134445452}
   scoreText: {fileID: 1064731568}
   scoreSO: {fileID: 11400000, guid: 7c67498bfb7a7c840975ac65490483d0, type: 2}
 --- !u!61 &760569789
@@ -16028,6 +16030,7 @@ MonoBehaviour:
   BG_Regular: {fileID: 1878738607}
   BG_Incorrect: {fileID: 606711413}
   questionNumber: {fileID: 1676409719}
+  currentQuestion: {fileID: 167177121}
   CorrectAnswer: {fileID: 1733079039}
   WrongAnswer: {fileID: 480227407}
   WrongAnswerTwo: {fileID: 546559849}
@@ -25780,7 +25783,7 @@ GameObject:
   - component: {fileID: 1847208652}
   m_Layer: 6
   m_Name: q2_answerThree
-  m_TagString: Correct
+  m_TagString: Incorrect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25794,8 +25797,8 @@ Transform:
   m_GameObject: {fileID: 1847208650}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.19831, y: -0.202, z: 0}
-  m_LocalScale: {x: 0.936417, y: 1.0782816, z: 1}
+  m_LocalPosition: {x: 0.38918, y: -0.1894, z: 0}
+  m_LocalScale: {x: 0.881048, y: 1.1035134, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1376545767}
@@ -25848,7 +25851,7 @@ MonoBehaviour:
   WrongAnswerTwo: {fileID: 549554380}
   isCorrect: 0
   animationChanged: 0
-  animator: {fileID: 134445452}
+  animator: {fileID: 0}
   scoreText: {fileID: 1064731568}
   scoreSO: {fileID: 11400000, guid: 7c67498bfb7a7c840975ac65490483d0, type: 2}
 --- !u!61 &1847208654
@@ -29857,7 +29860,9 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 965375233}
   - {fileID: 1931565333}
+  - {fileID: 1898567753}
   - {fileID: 706393757}
+  - {fileID: 938973524}
   - {fileID: 1026773592}
   - {fileID: 2043009533}
   - {fileID: 973117783}
@@ -29869,6 +29874,4 @@ SceneRoots:
   - {fileID: 434006295}
   - {fileID: 352834924}
   - {fileID: 1387358107}
-  - {fileID: 1898567753}
-  - {fileID: 938973524}
   - {fileID: 2083093696}

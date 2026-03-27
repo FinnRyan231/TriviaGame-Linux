@@ -12,6 +12,11 @@ public class finalQOne : MonoBehaviour
     public GameObject BG_Regular;
     public GameObject BG_Incorrect;
     public GameObject questionNumber;
+    // public GameObject Camera;
+    // public GameObject Player;
+    // public GameObject newPlayerPos;
+    // public GameObject newCameraPos;
+    public GameObject currentQuestion;
     public TMP_Text CorrectAnswer;
     public TMP_Text WrongAnswer;
     public TMP_Text WrongAnswerTwo;
@@ -32,7 +37,9 @@ void Awake()
 
 void finalQuestion()
     {
-        SceneManager.LoadScene(2);
+       currentQuestion.SetActive(false);
+    //    Player.transform.position = newPlayerPos.transform.position;
+    //    Camera.transform.position = newCameraPos.transform.position;
     }
 
    [SerializeField]
