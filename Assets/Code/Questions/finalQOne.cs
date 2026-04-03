@@ -12,14 +12,15 @@ public class finalQOne : MonoBehaviour
     public GameObject BG_Regular;
     public GameObject BG_Incorrect;
     public GameObject questionNumber;
-    // public GameObject Camera;
-    // public GameObject Player;
-    // public GameObject newPlayerPos;
-    // public GameObject newCameraPos;
+    public GameObject Barrier;
     public GameObject currentQuestion;
+    public GameObject currentHitbox;
+    public GameObject Popup;
+     public GameObject whatsNext;
     public TMP_Text CorrectAnswer;
     public TMP_Text WrongAnswer;
     public TMP_Text WrongAnswerTwo;
+    // public TMP_Text gameEnd;
     public bool isCorrect;
 
     public Animator animator;
@@ -38,8 +39,23 @@ void Awake()
 void finalQuestion()
     {
        currentQuestion.SetActive(false);
-    //    Player.transform.position = newPlayerPos.transform.position;
-    //    Camera.transform.position = newCameraPos.transform.position;
+       Barrier.SetActive(false);
+       currentHitbox.SetActive(false);
+       Popup.SetActive(true);
+    }
+
+void DeletePopup()
+    {
+        Popup.SetActive(false);
+        BG_Incorrect.SetActive(false);
+        BG_Regular.SetActive(true);
+        // CorrectAnswer.SetActive(false);
+    }
+
+void CreateText()
+    {
+        whatsNext.SetActive(true);
+        // gameEnd.SetActive(true);
     }
 
    [SerializeField]
@@ -56,7 +72,9 @@ private void OnCollisionEnter2D(Collision2D collision)
     if(collision.gameObject.tag == "Player")
     {
         Invoke("finalQuestion", 2);
-        
+        Invoke("DeletePopup", 5);
+        Invoke("CreateText", 8);
+
         if(gameObject.tag == "Correct")
             {
                 animator.SetBool("isCorrect", true);
