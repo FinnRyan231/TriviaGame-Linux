@@ -16,6 +16,9 @@ public class questionOne : MonoBehaviour
     public GameObject questionNumber;
     public GameObject BG_Regular;
     public GameObject BG_Incorrect;
+    public GameObject Question;
+    public GameObject rightChoice;
+    public GameObject yayText;
     public TMP_Text CorrectAnswer;
     public TMP_Text WrongAnswer;
     public TMP_Text WrongAnswerTwo;
@@ -45,6 +48,8 @@ void completeQuestion()
             currentQuestion.SetActive(false);
             wrongAnswer.SetActive(false);
             BG_Incorrect.SetActive(false);
+            rightChoice.SetActive(false);
+            yayText.SetActive(false);
             animator.SetBool("isCorrect", false);
     }
 
@@ -71,6 +76,11 @@ private void OnCollisionEnter2D(Collision2D collision)
                 animator.SetBool("animationChanged", true);
                 currentHitbox.SetActive(false);
                 CorrectAnswer.color = Color.green;
+                // questionNumber.SetActive(false);
+                // Question.SetActive(false);
+                rightChoice.SetActive(true);
+                yayText.SetActive(true);
+
 
                 scoreSO.Value += 100;
                 scoreText.text = scoreSO.Value + "";
@@ -82,8 +92,11 @@ private void OnCollisionEnter2D(Collision2D collision)
                 audienceCrowd.SetActive(false);
                 wrongAnswer.SetActive(true);
                 currentHitbox.SetActive(false);
+                questionNumber.SetActive(false);
+                Question.SetActive(false);
                 WrongAnswer.color = Color.red;
                 WrongAnswerTwo.color = Color.red;
+                
                 
                 BG_Incorrect.SetActive(true);
                 BG_Regular.SetActive(false);

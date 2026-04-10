@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/mainMenu.unity
     guid: d8563e5a42c0f124bafa1158c9325a3c
   - enabled: 1
-    path: Assets/Scenes/TriviaGame.unity
+    path: Assets/Scenes/GenreOne.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/GenreTwo.unity
+    guid: 505a05da16656d1e3a1a479ebdd98875
   - enabled: 1
     path: Assets/Scenes/finalTally.unity
     guid: c6dcbf431c873974abe461255e3d091f

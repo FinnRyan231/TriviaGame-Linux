@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9633f1b0b47a1520680e987779889ec4
+guid: 59aa38122e1358aca90f76b1d01ccb61
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6058885619196650750
-    second: bg_tv_incorrect_0
+      213: 4784425100187625883
+    second: NextGenre_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg_tv_incorrect_0
+      name: NextGenre_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1215
-        height: 220
+        width: 811
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20b9f0571a38aeba0800000000000000
-      internalID: -6058885619196650750
+      spriteID: b9965279741b56240800000000000000
+      internalID: 4784425100187625883
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3ad4f6e04656b8e749daaea6ef5f8c21
+    spriteID: 59a6bf963f8d5067586611fbc69b86c7
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bg_tv_incorrect_0: -6058885619196650750
+      NextGenre_0: 4784425100187625883
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

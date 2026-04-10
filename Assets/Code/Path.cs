@@ -17,7 +17,7 @@ public class Path : MonoBehaviour
         clone.GetComponent<Rigidbody2D>().simulated = true;
         clone.GetComponent<CircleCollider2D>().enabled = true;
         clone.tag = "Clone";
-        clone.layer = 0;
+        // clone.layer = 8;
         //Physics2d has 3 simulation modes which dictates when it simulates Rigidbody2Ds
         //Switch simulationMode from FixedUpdate(default) to Script to simulate with Physics2D.Simulate()
         Physics2D.simulationMode = SimulationMode2D.Script;

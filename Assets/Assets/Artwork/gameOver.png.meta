@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9633f1b0b47a1520680e987779889ec4
+guid: 9add9d10c198a06a1aa7faa90c48d2e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6058885619196650750
-    second: bg_tv_incorrect_0
+      213: 7611342515684761092
+    second: gameOver_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg_tv_incorrect_0
+      name: gameOver_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20b9f0571a38aeba0800000000000000
-      internalID: -6058885619196650750
+      spriteID: 40ed73ff0bbe0a960800000000000000
+      internalID: 7611342515684761092
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3ad4f6e04656b8e749daaea6ef5f8c21
+    spriteID: d657283f5345986f48353ea561a85464
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bg_tv_incorrect_0: -6058885619196650750
+      gameOver_0: 7611342515684761092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9633f1b0b47a1520680e987779889ec4
+guid: bbc73fe956368d2ccb0eddb8105fefcb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6058885619196650750
-    second: bg_tv_incorrect_0
+      213: 4206318157158884619
+    second: theChoice_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,11 +113,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg_tv_incorrect_0
+      name: theChoice_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 17
+        y: 24
         width: 1215
         height: 220
       alignment: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20b9f0571a38aeba0800000000000000
-      internalID: -6058885619196650750
+      spriteID: b052bb1f318df5a30800000000000000
+      internalID: 4206318157158884619
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3ad4f6e04656b8e749daaea6ef5f8c21
+    spriteID: c008671ef608afb9f8a9ecf5de78a82c
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bg_tv_incorrect_0: -6058885619196650750
+      theChoice_0: 4206318157158884619
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

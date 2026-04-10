@@ -16,7 +16,10 @@ public class finalQTwo : MonoBehaviour
     public GameObject currentQuestion;
     public GameObject currentHitbox;
     public GameObject Popup;
-     public GameObject whatsNext;
+    public GameObject whatsNext;
+    public GameObject Question;
+    public GameObject rightChoice;
+    public GameObject yayText;
     public TMP_Text CorrectAnswer;
     public TMP_Text WrongAnswer;
     public TMP_Text WrongAnswerTwo;
@@ -39,6 +42,8 @@ void Awake()
 void finalQuestion()
     {
        currentQuestion.SetActive(false);
+       rightChoice.SetActive(false);
+       yayText.SetActive(false);
        Barrier.SetActive(false);
        currentHitbox.SetActive(false);
        Popup.SetActive(true);
@@ -52,11 +57,11 @@ void DeletePopup()
         // CorrectAnswer.SetActive(false);
     }
 
-void CreateText()
-    {
-        whatsNext.SetActive(true);
-        // gameEnd.SetActive(true);
-    }
+// void CreateText()
+//     {
+//         whatsNext.SetActive(true);
+//         // gameEnd.SetActive(true);
+//     }
 
    [SerializeField]
     private TMP_Text scoreText;
@@ -73,7 +78,7 @@ private void OnCollisionEnter2D(Collision2D collision)
     {
         Invoke("finalQuestion", 2);
         Invoke("DeletePopup", 5);
-        Invoke("CreateText", 8);
+        // Invoke("CreateText", 8);
 
         if(gameObject.tag == "Correct")
             {
@@ -81,6 +86,10 @@ private void OnCollisionEnter2D(Collision2D collision)
                 Debug.Log("yay");
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.correctSFX);
                 CorrectAnswer.color = Color.green;
+                // questionNumber.SetActive(false);
+                // Question.SetActive(false);
+                rightChoice.SetActive(true);
+                yayText.SetActive(true);
                 
                 scoreSO.Value += 100;
                 scoreText.text = scoreSO.Value + "";
@@ -95,6 +104,8 @@ private void OnCollisionEnter2D(Collision2D collision)
                 wrongAnswer.SetActive(true);
                 WrongAnswer.color = Color.red;
                 WrongAnswerTwo.color = Color.red;
+                questionNumber.SetActive(false);
+                Question.SetActive(false);
 
                 BG_Incorrect.SetActive(true);
                 BG_Regular.SetActive(false);

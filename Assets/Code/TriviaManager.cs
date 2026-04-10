@@ -11,11 +11,11 @@ public class TriviaManager : MonoBehaviour
     {
         if(gameObject.tag == "ContinueTrivia")
             {
-               SceneManager.LoadScene(0);
+               SceneManager.LoadScene(2);
             }
             else if(gameObject.tag == "EndGame")
             {
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(3);
             }
     }
 }

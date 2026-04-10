@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9633f1b0b47a1520680e987779889ec4
+guid: bd1c96059ce3aade9b5a53d203f41e5b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6058885619196650750
-    second: bg_tv_incorrect_0
+      213: 4067275239056605797
+    second: Smile1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg_tv_incorrect_0
+      name: Smile1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1215
-        height: 220
+        width: 93
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20b9f0571a38aeba0800000000000000
-      internalID: -6058885619196650750
+      spriteID: 56206b3d74dd17830800000000000000
+      internalID: 4067275239056605797
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3ad4f6e04656b8e749daaea6ef5f8c21
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bg_tv_incorrect_0: -6058885619196650750
+      Smile1_0: 4067275239056605797
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
