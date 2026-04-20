@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GenreOne.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/GenreTwo.unity
+    guid: 3e23c8aeaec5b9c469bfac954ea52b1b
+  - enabled: 1
     path: Assets/Scenes/finalTally.unity
     guid: c6dcbf431c873974abe461255e3d091f
   m_configObjects:

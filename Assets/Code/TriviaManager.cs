@@ -15,7 +15,7 @@ public class TriviaManager : MonoBehaviour
             }
             else if(gameObject.tag == "EndGame")
             {
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(3);
             }
     }
 }
