@@ -19,6 +19,7 @@ public class questionOne : MonoBehaviour
     public GameObject Question;
     public GameObject rightChoice;
     public GameObject yayText;
+    public GameObject Fireworks;
     public TMP_Text CorrectAnswer;
     public TMP_Text WrongAnswer;
     public TMP_Text WrongAnswerTwo;
@@ -50,6 +51,7 @@ void completeQuestion()
             BG_Incorrect.SetActive(false);
             rightChoice.SetActive(false);
             yayText.SetActive(false);
+            Fireworks.SetActive(false);
             animator.SetBool("isCorrect", false);
     }
 
@@ -75,6 +77,7 @@ private void OnCollisionEnter2D(Collision2D collision)
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.correctSFX);
                 animator.SetBool("animationChanged", true);
                 currentHitbox.SetActive(false);
+                Fireworks.SetActive(true);
                 CorrectAnswer.color = Color.green;
                 // questionNumber.SetActive(false);
                 // Question.SetActive(false);

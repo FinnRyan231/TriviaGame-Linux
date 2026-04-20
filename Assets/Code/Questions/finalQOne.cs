@@ -20,6 +20,7 @@ public class finalQOne : MonoBehaviour
     public GameObject Question;
     public GameObject rightChoice;
     public GameObject yayText;
+    public GameObject Fireworks;
     public TMP_Text CorrectAnswer;
     public TMP_Text WrongAnswer;
     public TMP_Text WrongAnswerTwo;
@@ -46,6 +47,7 @@ void finalQuestion()
        yayText.SetActive(false);
        Barrier.SetActive(false);
        currentHitbox.SetActive(false);
+       Fireworks.SetActive(false);
        Popup.SetActive(true);
     }
 
@@ -86,6 +88,7 @@ private void OnCollisionEnter2D(Collision2D collision)
                 Debug.Log("yay");
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.correctSFX);
                 CorrectAnswer.color = Color.green;
+                Fireworks.SetActive(true);
                 // questionNumber.SetActive(false);
                 // Question.SetActive(false);
                 rightChoice.SetActive(true);
