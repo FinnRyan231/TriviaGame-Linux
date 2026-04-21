@@ -16,6 +16,7 @@ public class finalQTwo : MonoBehaviour
     public GameObject currentQuestion;
     public GameObject currentHitbox;
     public GameObject Popup;
+    public GameObject popupArrow;
     public GameObject whatsNext;
     public GameObject Question;
     public GameObject rightChoice;
@@ -49,6 +50,7 @@ void finalQuestion()
        currentHitbox.SetActive(false);
        Fireworks.SetActive(false);
        Popup.SetActive(true);
+       popupArrow.SetActive(true);
     }
 
 void DeletePopup()

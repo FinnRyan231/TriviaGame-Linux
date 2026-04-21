@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0b4bc9b142eb0034181349bf02eb6576
+guid: 9c3c1f610bfb3274f8fc879939d331db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6972022727594777463
-    second: ball_spin_rough_4 1_0
+      213: 3113841234540775196
+    second: scream_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ball_spin_rough_4 1_0
+      name: scream_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
-        width: 12
-        height: 10
+        y: 0
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98463c3c4466e3f90800000000000000
-      internalID: -6972022727594777463
+      spriteID: c1744cfda16963b20800000000000000
+      internalID: 3113841234540775196
       vertices: []
       indices: 
       edges: []
@@ -125,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ea3e7877ea90d5242add38f96c130b71
+    spriteID: 6b848165a26735f468a6c83961b4bf6f
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ball_spin_rough_4 1_0: -6972022727594777463
+      scream_0: 3113841234540775196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

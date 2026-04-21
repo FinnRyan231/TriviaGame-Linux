@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f191dcb2102262843a48ec608bf7647d
+guid: 0b4bc9b142eb0034181349bf02eb6576
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3385730512969867736
-    second: guy_scared_2_rough_test2_0
+      213: -6972022727594777463
+    second: ball_spin_rough_4 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: guy_scared_2_rough_test2_0
+      name: ball_spin_rough_4 1_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 9
-        width: 10
-        height: 12
+        x: 0
+        y: 3
+        width: 12
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82eda3d69087301d0800000000000000
-      internalID: -3385730512969867736
+      spriteID: 98463c3c4466e3f90800000000000000
+      internalID: -6972022727594777463
       vertices: []
       indices: 
       edges: []
@@ -125,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a21ca22f89148c947828a9bb14eca691
+    spriteID: ea3e7877ea90d5242add38f96c130b71
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      guy_scared_2_rough_test2_0: -3385730512969867736
+      ball_spin_rough_4 1_0: -6972022727594777463
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

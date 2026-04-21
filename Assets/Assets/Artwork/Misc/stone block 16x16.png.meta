@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f59042d57c7586240861d6c7ee0f62a5
+guid: ba23086446d39794c907187ea576bd24
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4434498425877262867
-    second: tenna_tv_correct2_0
+      213: 1204676962929027430
+    second: stone block 16x16_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,16 +96,29 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tenna_tv_correct2_0
+      name: stone block 16x16_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 14
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3127177c2d08a8d30800000000000000
-      internalID: 4434498425877262867
+      spriteID: 6692b7ca05fd7b010800000000000000
+      internalID: 1204676962929027430
       vertices: []
       indices: 
       edges: []
@@ -125,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d160a1f30ad806847a1ec174b341ac51
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tenna_tv_correct2_0: 4434498425877262867
+      stone block 16x16_0: 1204676962929027430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

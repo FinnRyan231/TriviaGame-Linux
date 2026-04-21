@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2951eab2cb3a4fb42b29ec6d24169bcc
+guid: f59042d57c7586240861d6c7ee0f62a5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4911251003626907666
-    second: guy_scared_2_rough_test1_0
+      213: 4434498425877262867
+    second: tenna_tv_correct2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: guy_scared_2_rough_test1_0
+      name: tenna_tv_correct2_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 8
-        width: 10
-        height: 13
+        x: 0
+        y: 0
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee7990eab3bb7dbb0800000000000000
-      internalID: -4911251003626907666
+      spriteID: 3127177c2d08a8d30800000000000000
+      internalID: 4434498425877262867
       vertices: []
       indices: 
       edges: []
@@ -125,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: aa573870bb302ee409d6dc2d08581439
+    spriteID: d160a1f30ad806847a1ec174b341ac51
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      guy_scared_2_rough_test1_0: -4911251003626907666
+      tenna_tv_correct2_0: 4434498425877262867
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

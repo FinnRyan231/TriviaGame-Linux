@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5a18b50b3e0415b49a5de71e46b2970c
+guid: 2a48ca79d6445304f878003f04830222
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2992976973678797238
-    second: ball_spin_rough_1_0
+      213: -1822596476451585889
+    second: ball_spin_rough_2 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ball_spin_rough_1_0
+      name: ball_spin_rough_2 1_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 4
         y: 0
-        width: 10
-        height: 13
+        width: 12
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b16c0933b0398920800000000000000
-      internalID: 2992976973678797238
+      spriteID: f9089344926d4b6e0800000000000000
+      internalID: -1822596476451585889
       vertices: []
       indices: 
       edges: []
@@ -125,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a3074addbdbfc644cb2c7d4bc82d394d
+    spriteID: a1572826c6e92ea47b33591f79bc18a4
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ball_spin_rough_1_0: 2992976973678797238
+      ball_spin_rough_2 1_0: -1822596476451585889
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
